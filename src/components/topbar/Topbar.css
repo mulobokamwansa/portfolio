@@ -1,0 +1,36 @@
+.top-bar{
+   position: -ms-page;
+   top: 0px;
+   left: 200%;
+   height: 7vh;
+   align-items: center;
+   background-color: rgb(9, 8, 19);
+   margin-top: -20px;
+   z-index: 500;
+  
+}
+
+.text-bar{
+    position: absolute;
+    top: 5px;
+    align-items: center;
+    left: 43%;
+    color: rgb(177, 192, 241);
+    font-family: monospace;
+    font-style: italic;
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow:  1px 0.5cap 5px #f4eff8;
+}
+@media screen and (max-width: 600px)  {
+    .text-bar{
+        position: absolute;
+        top: 5px;
+        align-items: center;
+        left: 26%;
+        color: rgb(177, 192, 241);
+        
+    }
+    
+}
+

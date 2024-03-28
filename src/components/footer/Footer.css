@@ -1,0 +1,80 @@
+footer{
+    background: gainsboro;
+    padding: 1.2rem;
+    text-align: center;
+    font-size: 0.7rem;
+    margin-top: 4rem;
+    border-radius: 0.9rem 0.9rem 0 0;
+}
+
+footer a{
+    color: var(--color-bg);
+}
+
+.footer__log{
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+}
+
+.permalinks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0 auto 0.5rem;
+}
+.footer__socials{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.2rem;
+
+}
+
+.footer__socials a{
+    background: var(--color-bg);
+    color: var(--color-white);
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+    display: flex;
+    border: 1px solid transparent;
+}
+
+.footer__socials a:hover{
+    background: transparent;
+    color: var(--color-bg);
+    border-color: var(--color-bg);
+
+}
+
+.footer__copyright{
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+
+/*==============MEDIA QUERIE (MEADIAM DEVICES)============*/
+
+@media screen and (max-width: 1024px) {
+    #footers_m{
+        margin-top: 603px;
+        padding-top: 5vh;
+    }
+    .permalinks{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .footer__socials{
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #footers_m{
+        margin-top: 603px;
+        padding-top: 5vh;
+    }
+ 
+}

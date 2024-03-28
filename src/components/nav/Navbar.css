@@ -1,0 +1,280 @@
+.top{
+  position: sticky;
+  display: flex;
+  align-items: center;
+  top: 0px;
+  left: 0%;
+  height: 14vh;
+  background-color: #c8c8fcf6;
+  width: 100%;    
+  z-index: 500;
+  border-radius: 0 0 1rem 1rem;
+  text-shadow:  1px 0.5cap 5px #050505;
+}
+
+.top__item{
+font-family: 'Times New Roman', Times, serif;
+;
+}
+
+.imag-p{
+  color: hsl(264, 100%, 1%);
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.imag-p1{
+  color: hsl(0, 0%, 0%);
+  margin-top: 30px;
+  margin-left: -5px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.variable{
+  display: flex;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-shadow:  1px 0.5cap 5px #010002;
+}
+
+.variable{
+  padding: 20px;
+  background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 30s infinite linear;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 600px;
+  }
+  100% {
+    background-position: 600px;
+  }
+}
+
+.topport{
+  display: flex;
+  margin-left: 60px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.top__menu{
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+  left: 75%;
+}
+
+.top a{
+  background: transparent;
+  display: flex;
+  font-size: 0.9rem;
+  color: rgb(14, 5, 0);
+  font-style: italic;
+}
+
+.nav__toggler div {
+  width: 2rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: rgb(4, 1, 7);
+  transition: 0.3s ease-in;
+}
+
+.style-nav{
+  position: absolute;
+  display: flex;
+  top: 0px;
+  left: 41%;
+  height: 13.9vh;
+  align-items: center;
+  background-color: rgb(9, 8, 19);
+  z-index: 500;
+  width: 6%;
+  border-style: outset;
+  border-radius: 0 0 20rem 1rem;
+}
+
+.style-naba{
+  position: absolute;
+  display: flex;
+  top: 0px;
+  left: 200%;
+  height: 13.9vh;
+  align-items: center;
+  background-color: #c8c8fcf6;
+  z-index: 500;
+  width: 100%;
+  border-style: outset;
+  border-radius: 0rem 0rem 8rem 0rem;
+}
+
+.style-navbar{
+  position: absolute;
+  display: flex;
+  top: 0px;
+  left: 200%;
+  height: 13.9vh;
+  align-items: center;
+  background-color: rgb(9, 8, 19);
+  z-index: 500;
+  width:145%;
+  border-style: outset;
+  border-radius: 0 0rem 8rem 0rem;
+}
+
+.style-bar{
+  position: absolute;
+  display: flex;
+  top: 0px;
+  left: 0%;
+  height: 13.9vh;
+  align-items: center;
+  background-color:  #c8c8fcf6;
+  z-index: 500;
+  width: 70%;
+  border-style: outset;
+  border-radius:3rem 6rem 200rem 1rem;
+}
+
+nav .nav__toggler{
+cursor: pointer;
+visibility: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+ nav .nav__toggler{
+  visibility: visible;
+  display: block;
+  position: sticky;
+  left: 85%;
+ }
+
+ nav ul{
+  position: sticky;
+  top: 18.5%;
+  margin-left: 110px;
+  width: 16%;
+  align-items: center;
+  height: 50vh;
+  background:  #c8c8fcf6;
+  flex-direction: column;
+  transition: 1s;
+  transform: translateX(100%);
+  border-radius: 1rem 0 1rem 1rem;
+}
+.top{
+  border-radius: 0 0 0rem 0rem;
+  
+}
+}
+
+
+@media screen and (max-width: 600px) {
+ 
+.imag-p{
+  color: hsl(264, 100%, 1%);
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.top__menu{
+  position: sticky;
+  margin-top: 395px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+  left: 75%;
+}
+
+.imag-p1{
+  position: sticky;
+  color: hsl(0, 0%, 0%);
+  margin-top: 15px;
+  margin-left: -5px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+nav ul{
+  position: sticky;
+  top: 19.4%;
+  margin-left: 18px;
+  width: 26%;
+  align-items: center;
+  height: 50vh;
+  background:  #c8c8fcf6;
+  flex-direction: column;
+  transition: 1s;
+  transform: translateX(100%);
+  border-radius: 1rem 0rem 1rem 1rem;
+}
+}
+nav .toggle{
+  transform: none;
+}
+
+
+/* nava active class */
+
+
+.nav__close .line1{
+transform: rotate(-45deg) translate(-8px, 5px);
+}
+.nav__close .line2{
+opacity: 0;  
+}
+
+.nav__close .line3{
+transform: rotate(45deg) translate(-8px, -5px);
+}
+
+.imag__log{
+  align-content: center;
+  width: 4rem;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  border-radius: 50%;
+  max-width: 0 auto rem;
+  border: 0.4rem solid rgb(103, 101, 107);
+  margin-left: 4%;
+  box-shadow: 8px 0cap 5px #4c4c4d;;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

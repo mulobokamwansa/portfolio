@@ -1,0 +1,259 @@
+#about{
+    margin-top: 70px;
+}
+
+.about__content{
+    position: absolute;
+    left: 40%;
+}
+
+section a{
+    position: relative;
+    top: -100px;
+}
+
+.about__container{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    gap: 6%;
+}
+
+.know_me{
+    position: relative;
+    left: 180px;
+    text-align: center;
+    color: var(--color-light);
+    font-size: 1.0rem;
+    margin-bottom: 10px;
+    width: 1057px;
+    border-radius: 6rem 6rem 0 0;
+   
+}
+
+
+.about__me{
+    position: relative;
+    left: -90px;
+    top: -18px;
+    width: 150%;
+    aspect-ratio: 2/2;
+    background: linear-gradient(45deg, transparent, 
+    var(--color-primary) transparent);
+    display: grid;
+    grid-template-columns: 100% 100%;
+    place-items: center;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transtion); 
+    border-radius: 2rem 0 2rem 0rem;
+}
+
+
+
+
+.about__me:hover{
+    transform: rotate(0); 
+}
+
+.about__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.about__card{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transtion);
+    cursor: default;
+}
+
+.small1{
+    position: relative;
+    top: -50px;
+}
+
+.small2{
+    position: relative;
+    top: -85px;
+}
+
+.small3{
+    position: relative;
+    top: -118px;
+}
+
+.tittle1{
+    position: relative;
+    top: 5px;
+}
+
+.tittle2{
+    position: relative;
+    top: -30px;
+}
+
+.tittle3{
+    position: relative;
+    top: -65px;
+}
+
+.about__card:hover{
+    background: transparent;
+    background-color: var(--color-primary-variant);
+}
+
+.about__icon{
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+
+}
+
+.about__card h5 {
+    font-size: 0.95rem;
+    
+}
+
+.about__card small{
+    font-size: 0.7rem;
+    color: var(--color-light);
+
+}
+
+.about__content p {
+    margin: 2rem 0 2.8rem;
+    color: var(--color-light);
+
+}
+
+/*==============MEDIA QUERIE (MEADIAM DEVICES)============*/
+
+@media screen and (max-width: 1024px) {
+   
+   .container{
+    padding-top: 2vh;
+   }
+    .about__container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+ }
+
+ .about__me{
+    width: 50%;
+    margin: 2rem auto 4rem;
+ }
+
+ .about__content p{
+    margin: 1rem 0 1.5rem;
+ }
+ 
+ /*==============MEDIA QUERIE (SMALL DEVICES)============*/
+ @media screen and (max-width: 600px) {
+   
+    .container{
+        padding-top: 6vh;
+    }
+    .about__me{
+        width: 65%;
+        margin: 0 auto 3rem;
+
+    }
+
+    .about__cards{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .about__content{
+        text-align: center;
+    }
+
+    .about__content p {
+        margin: 1.5rem 0;
+    }
+ }   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
