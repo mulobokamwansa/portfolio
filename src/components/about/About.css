@@ -156,11 +156,11 @@ section a{
  @media screen and (max-width: 600px) {
    
     .container{
-        padding-top: 6vh;
+        padding-top: 5vh;
     }
     .about__me{
-        width: 65%;
-        margin: 0 auto 3rem;
+        width: 20%;
+        margin: -120px ;
 
     }
 

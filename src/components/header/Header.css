@@ -66,18 +66,22 @@ header {
 
 @media screen and (max-width: 1024px) {
    header{
-    height: 111vh;
-    padding-top: 9rem;
-
+    margin-top: 0;
+    height: 90vh;
+    padding: 4.3rem;
+    
    }
 }
 
 /*==============MEDIA QUERIE (SMALL DEVICES)============*/
 @media screen and (max-width: 600px) {
    header{
+    margin-top: -50px;
     height:110vh;
-    padding-top: 8rem;
+    margin-bottom: 1rem;
+
    }
+   
    .header__socials, .scroll__down{
     display: none;
    }
